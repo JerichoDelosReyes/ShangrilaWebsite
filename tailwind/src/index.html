@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" class="!scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="input.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/logo (1).png">
+    <title>Luxury Escape at Best Rate | Shangri-La Hotels and Resorts</title>
+</head>
+
+<header>
+    <nav class="border-gray-200 px-4 lg:px-6 py-2.5" style="background-color: #FAF5EF; height: 80px;">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-2xl mt-2">
+            <a href="index.html" class="flex items-center">
+                <img src="images/header_logo.png" class="mr-0 h-6 sm:h-9" alt="Shangri-La Logo" />
+            </a>
+            <div class="flex items-center lg:hidden">
+                <button id="hamburger" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex items-center lg:order-2">
+                <a href="#" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">
+                    <img src="images/LOGIN_ICN.png" alt="login_logo" class="w-6 float-left mr-3 mt-1">Sign in
+                </a>
+                <a href="#" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">Join Now</a>
+                <a href="#" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">Find Reservations</a>
+                <a href="#" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">English</a>
+                <a href="#" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">PHP</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mobile-menu" class="lg:hidden">
+        <ul class="flex flex-col bg-gray-100 p-4 mt-4 border border-gray-200 rounded-lg shadow-lg">
+            <li><a href="#" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-lg px-4 py-2 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">Sign in</a></li>
+            <li><a href="#" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-lg px-4 py-2 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">Join Now</a></li>
+            <li><a href="#" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-lg px-4 py-2 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">Find Reservations</a></li>
+            <li><a href="#" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-lg px-4 py-2 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">English</a></li>
+            <li><a href="#" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-lg px-4 py-2 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">PHP</a></li>
+        </ul>
+    </div>
+
+    <nav class="border-gray-200 px-4 lg:px-6 py-2.5 border-t-2" style="background-color: white">
+        <div class="flex flex-wrap justify-center lg:justify-between items-center mx-auto max-w-screen-xl mt-0 pl-5">
+            <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start">
+                <a href="https://www.shangri-la.com/" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-base lg:text-lg px-4 lg:px-5 py-2 lg:py-2.5 m-1 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">HOTELS & RESORTS</a>
+                <div class="relative inline-block text-left m-1">
+                    <button class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-base lg:text-lg px-4 lg:px-5 py-2 lg:py-2.5 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800" type="button">
+                        EXPERIENCES
+                        <svg class="w-2.5 h-2.5 ml-1 inline-block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg>
+                    </button>
+                    <div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                        <ul class="py-2 text-sm text-gray-700 dark:text-black" aria-labelledby="dropdownHoverButton">
+                            <li><a href="https://www.shangri-la.com/en/corporate/weddings-celebrations/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-black">Weddings & Celebrations</a></li>
+                            <li><a href="https://www.shangri-la.com/en/corporate/meetings-events/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-black">Meetings & Events</a></li>
+                            <li><a href="https://www.shangri-la.com/en/landing/family-homepage/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-black">Family Experiences</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-black">BSCS-1E (TM)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="https://www.shangri-la.com/restaurants-bars/" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-base lg:text-lg px-4 lg:px-5 py-2 lg:py-2.5 m-1 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">RESTAURANTS & BARS</a>
+                <a href="https://www.shangri-la.com/en/corporate/shangrilacircle/" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-base lg:text-lg px-4 lg:px-5 py-2 lg:py-2.5 m-1 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">SHANGRI-LA CIRCLE</a>
+                <a href="https://boutique.shangri-la.com/?WT.mc_id=__SLEB_REFERRAL_SLWEBSITE_ALWAYSON_MENU-BUTTON__EN" class="text-gray-800 dark:text-black hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-base lg:text-lg px-4 lg:px-5 py-2 lg:py-2.5 m-1 dark:hover:bg-white focus:outline-none dark:focus:ring-gray-800">SHANGRI-LA BOUTIQUE</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<body>
+        <div class="flex items-center justify-center h-129 w-full bg-gradient-overlay">
+            <div class="container h-96 w-full flex flex-col justify-end items-center space-y-4 relative">
+                <h1 class="w-full font-serif text-white text-center text-5xl lg:text-7xl mb-4 absolute top-0">
+                    Fast Track to Jade Status in 5 Nights
+                </h1>
+                
+                <div class="w-full max-w-4xl p-4 bg-white rounded-lg shadow-lg hidden lg:block">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <img src="images/logo (1).png" alt="Icon" class="mr-2">
+                            <span class="font-bold">Book directly for the best rate, guaranteed. Only via Shangri-La.com.</span>
+                        </div>
+                        <button class="text-black hover:bg-orange-100 focus:ring-gray-500 p-2">Find Out More</button>
+                    </div>
+                    <div class="flex space-x-2">
+                        <input type="text" class="flex-1 p-2 border border-gray-300 rounded" placeholder="Find a city, hotel or destination">
+                        <input type="date" class="p-2 border border-gray-300 rounded">
+                        <input type="text" class="p-2 border border-gray-300 rounded" placeholder="1 Room, 1 Adult, 0 Children">
+                        <input type="text" class="p-2 border border-gray-300 rounded" placeholder="Corporate / Special Rates">
+                        <button class="p-2 bg-yellow-500 text-white rounded">Search</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="h-auto lg:h-130 w-full flex flex-col lg:flex-row justify-center items-center bg-no-repeat bg-cover" style="background-image: url('images/background.png');">
+            <div class="flex-col w-full lg:w-auto space-y-12 p-4 lg:p-0 lg:pr-5 lg:items-center lg:text-center">
+                <h1 class="font-serif text-black text-4xl lg:text-6xl font-medium text-center">
+                    Join Shangri-La Circle today
+                </h1>
+                <p class="font-serif text-black text-xl lg:text-2xl text-center">
+                    Whether you’re here for a bite or a string of nights,  join as a member to enjoy exclusive benefits and a seamless digital experience.
+                </p>
+                <a href="https://www.shangri-la.com/corporate/shangrilacircle/joingc/" class="bg-yellow-500 p-4 text-lg lg:text-xl hover:bg-yellow-600 active:bg-yellow-700 block text-center lg:inline-block">Join Now</a>
+            </div>
+            <div class="w-full lg:w-auto p-4 lg:p-0 lg:mt-0 lg:space-x-12">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="flex flex-col items-center mb-5 p-5">
+                        <img src="https://sitecore-cd.shangri-la.com/-/media/Shangri-La/golden-circle/benefit-icon3x/benefitsiconmemberExclusive3x.png" alt="">
+                        <p class="pt-3 text-center">Member Exclusive Offers</p>
+                    </div>
+                    <div class="flex flex-col items-center mb-5 p-5">
+                        <img src="https://sitecore-cd.shangri-la.com/-/media/Shangri-La/golden-circle/benefit-icon3x/benefitsiconmobileCheck3x.png" alt="">
+                        <p class="pt-3 text-center">Mobile Check-In &-Out</p>
+                    </div>
+                    <div class="flex flex-col items-center mb-5 p-5">
+                        <img src="https://sitecore-cd.shangri-la.com/-/media/Shangri-La/golden-circle/benefit-icon3x/benefitsiconchildrenEatFree3x.png" alt="">
+                        <p class="pt-3 text-center">Children Eat Free</p>
+                    </div>
+                    <div class="flex flex-col items-center mb-5 p-5">
+                        <img src="https://sitecore-cd.shangri-la.com/-/media/Shangri-La/golden-circle/benefit-icon3x/benefitsiconfreeNights3x.png" alt="">
+                        <p class="pt-3 text-center">Earn Free Nights</p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        
+
+
+        <div class="max-w-7xl mx-auto px-1 w-full h-auto flex flex-col">
+    <div class="text-center py-11">
+        <h2 class="font-extrabold text-black tracking-wide uppercase text-2xl">Our Brands</h2>
+        <p class="mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-2xl">
+            Take your pick. Choose from more than 100 hotels and resorts across our four distinct brands - in over 22 countries, regions and 76 destinations.
+        </p>
+    </div>
+    <div class="flex flex-wrap -mx-4">
+        <div class="w-full sm:w-full lg:w-1/3 px-4 mb-8">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full h-56 object-cover object-center" src="images/shangri-la_hotel.png" alt="Shangri-La Hotels">
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-gray-900 font-serif">Shangri-La Hotels</h3>
+                    <p class="text-gray-600">
+                        Enjoy world-class service amidst tranquil surroundings, coupled with inspirational design and transformative experiences in some of the world's finest urban addresses and resort destinations.
+                    </p>
+                    <div class="mt-4">
+                        <a href="https://www.shangri-la.com/en/brand/#ShangriLa" class="text-yellow-500 border border-yellow-500 px-3 py-2 rounded-md text-sm font-medium hover:bg-yellow-500 hover:text-white">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full sm:w-full lg:w-1/3 px-4 mb-8">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full h-56 object-cover object-center" src="images/shangri-la_resorts.jpg" alt="Shangri-La Resorts">
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-gray-900 font-serif">Shangri-La Resorts</h3>
+                    <p class="text-gray-600">
+                        Our resorts are located at some of the most beautiful destinations in the world and are the perfect sanctuaries for rediscovery, relaxation and rejuvenation.
+                    </p>
+                    <div class="mt-4">
+                        <a href="https://www.shangri-la.com/resorts/index.aspx" class="text-yellow-500 border border-yellow-500 px-3 py-2 rounded-md text-sm font-medium hover:bg-yellow-500 hover:text-white">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full sm:w-full lg:w-1/3 px-4 mb-8">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full h-56 object-cover object-center" src="images/kerry.jpg" alt="Kerry Hotels">
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-gray-900 font-serif">Kerry Hotels</h3>
+                    <p class="text-gray-600">
+                        Experience an urban lifestyle destination where the hotel and neighborhood seamlessly connect and create a vibrant hub offering locals and travelers space to live life well.
+                    </p>
+                    <div class="mt-4">
+                        <a href="https://www.shangri-la.com/en/brand/#Kerry" class="text-yellow-500 border border-yellow-500 px-3 py-2 rounded-md text-sm font-medium hover:bg-yellow-500 hover:text-white">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full sm:w-full lg:w-1/3 px-4 mb-8">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full h-56 object-cover object-center" src="images/traders_hotels.jpg" alt="Traders Hotels">
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-gray-900 font-serif">Traders Hotels</h3>
+                    <p class="text-gray-600">
+                        With versatile efficiency and practicality at its core, Traders hotels offer vibrant spaces designed to complement guests at work, rest or play.
+                    </p>
+                    <div class="mt-4">
+                        <a href="https://www.shangri-la.com/en/brand/#Traders" class="text-yellow-500 border border-yellow-500 px-3 py-2 rounded-md text-sm font-medium hover:bg-yellow-500 hover:text-white">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full sm:w-full lg:w-1/3 px-4 mb-8">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full h-56 object-cover object-center" src="images/JEN.jpg" alt="JEN">
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-gray-900 font-serif">JEN</h3>
+                    <p class="text-gray-600">
+                        Plug into the pulse of New Asia. Designed for highly driven pacesetters that are hungry to explore all that Asia has to offer, JEN curates authentic experiences that reflect the energy.
+                    </p>
+                    <div class="mt-4">
+                        <a href="https://www.shangri-la.com/en/brand/#Jen" class="text-yellow-500 border border-yellow-500 px-3 py-2 rounded-md text-sm font-medium hover:bg-yellow-500 hover:text-white">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="max-w-7xl mx-auto px-4 w-full h-auto lg:h-128">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-28 mb-0">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-mono text-gray-900">Restaurant & Bar</h1>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4 font-serif">Savour the world of Shangri-La</h2>
+                <p class="text-gray-600 mb-4">Find flavourful inspirations and sweet rewards at over 500 restaurants & bars worldwide. Indulge in the delicious benefits and experiences we're serving up.</p>
+                <a href="https://www.shangri-la.com/restaurants-bars/" class="inline-block text-center text-yellow-500 border border-yellow-500 px-4 py-2 rounded-md text-sm font-medium hover:bg-yellow-500 hover:text-white">Learn More</a>
+            </div>
+            <div class="lg:w-1/2 mt-8 lg:mt-0 lg:ml-8 lg:py-10">
+                <img class="w-full h-auto rounded-lg shadow-lg" src="images/Restaurant_Bar.png" alt="Dish">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="max-w-7xl mx-auto px-4 w-full h-auto lg:h-130">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-28 mb-0">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-mono text-gray-900">Business Travel</h1>
+        </div>
+        <div class="flex flex-col lg:flex-row-reverse items-center">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4 font-serif">Shangri-La Business Travel Programme</h2>
+                <p class="text-gray-600 mb-4">At Shangri-La, we understand how important connectivity, efficiency, and comfort are for business travelers. We've designed a set of benefits to help your company’s associates achieve their business goals wherever travel may take them.</p>
+                <a href="https://www.shangri-la.com/corporate/business-travel/?icid=BTP-footer-menu&WT.mc_id=SLIM_20180122_GLOBAL_WEBSITE_GC_BIZTRAVEL_TEXTLINK_APP_EN" class="inline-block text-center text-yellow-500 border border-yellow-500 px-4 py-2 rounded-md text-sm font-medium hover:bg-yellow-500 hover:text-white">Learn More</a>
+            </div>
+            <div class="lg:w-1/2 mt-8 lg:mt-0 lg:mr-8 lg:py-10">
+                <img class="w-full h-auto rounded-lg shadow-lg" src="images/business-travel.jpg" alt="Business Travel">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <div class="max-w-7xl mx-auto px-4 w-full">
+    <div class="bg-white shadow overflow-hidden sm:rounded-lg">
+      <div class="px-4 py-5 sm:px-6">
+        <h3 class="text-lg leading-6 font-medium text-gray-900">Exclusive Offers</h3>
+        <p class="mt-1 max-w-2xl text-sm text-gray-500">Check out our exclusive offers below.</p>
+      </div>
+      <div class="border-t border-gray-200">
+        <dl class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 lg:grid-cols-3 p-4">
+          <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img class="w-full h-32 sm:h-48 object-cover" src="images/offer1.webp" alt="Offer 1">
+            <div class="p-4">
+              <h4 class="text-lg font-bold font-serif">Stay 3 Nights, Get the 4th Night Free</h4>
+              <p class="mt-2 font-extrabold">Description:</p>
+              <p class="text-gray-600">  Enjoy a free night's stay when you book three consecutive nights. Includes complimentary breakfast and a welcome drink on arrival.</p>
+              <button class="mt-4 bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600 active:bg-yellow-700">Learn More</button>
+            </div>
+          </div>
+          <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img class="w-full h-32 sm:h-48 object-cover" src="images/offer2.webp" alt="Offer 2">
+            <div class="p-4">
+              <h4 class="text-lg font-bold font-serif">Romantic Getaway Package</h4>
+              <p class="mt-2 font-extrabold">Description:</p>
+              <p class="text-gray-600"> Perfect for couples, this package offers a two-night stay in a deluxe room with champagne, chocolate-covered strawberries, and a candlelit dinner for two.</p>
+              
+              <button class="mt-4 bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600 active:bg-yellow-700">Learn More</button>
+            </div>
+          </div>
+          <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img class="w-full h-32 sm:h-48 object-cover" src="images/offer3.webp" alt="Offer 3">
+            <div class="p-4">
+              <h4 class="text-lg font-bold font-serif">Family Fun Package</h4>
+              <p class="mt-2 font-extrabold">Description:</p>
+              <p class="text-gray-600">Book a family suite for two nights and get 50% off the third night. Includes tickets to a local attraction, complimentary breakfast, and a kids' welcome pack.</p>
+              <button class="mt-4 bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600 active:bg-yellow-700">Learn More</button>
+            </div>
+          </div>
+           
+        </dl>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bg-white py-16 ">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl font-serif">Meet our team</h2>
+        <p class="mt-6 text-lg leading-8 text-gray-600">At Shangri-La, we take pride in our dedicated team of hospitality professionals who are committed to making your stay exceptional. From our experienced management team to our friendly front desk staff and skilled housekeeping team, each member plays a crucial role in ensuring your comfort and satisfaction. Get to know the faces behind our commitment to hospitality excellence and discover the personalized service that sets us apart. Whether it’s recommending local attractions or ensuring every detail of your stay is perfect, our team is here to exceed your expectations.</p>
+        <ul role="list" class="grid gap-8 custom-grid mt-12">
+            <li class="flex flex-col items-center">
+                <a href="https://www.facebook.com/znn666"><img class="h-28 w-28 rounded-full mb-4" src="images/justine.jpg" alt="Justine Lawrence Coronel"></a>
+                <h3 class="text-lg font-semibold text-gray-900">Justine Lawrence Coronel</h3>
+                <p class="text-base font-medium text-yellow-600">Coder 1</p>
+            </li>
+            <li class="flex flex-col items-center">
+                <a href="https://www.facebook.com/jerZer0"><img class="h-28 w-28 rounded-full mb-4" src="images/jericho.jpg" alt="Jericho Delos Reyes"></a>
+                <h3 class="text-lg font-semibold text-gray-900">Jericho Delos Reyes</h3>
+                <p class="text-base font-medium text-yellow-600">Coder 2</p>
+            </li>
+            <li class="flex flex-col items-center">
+                <a href="https://www.facebook.com/angelo.panal.79"><img class="h-28 w-28 rounded-full mb-4" src="images/angelo.jpg" alt="Angelo Panal"></a>
+                <h3 class="text-lg font-semibold text-gray-900">Angelo Panal</h3>
+                <p class="text-base font-medium text-yellow-600">Design</p>
+            </li>
+            <div class="flex flex-row justify-center w-full" style="gap: 17rem;">
+                <li class="flex flex-col items-center">
+                    <a href="https://www.facebook.com/JmNavarette20"><img class="h-28 w-28 rounded-full mb-4" src="images/jm.png" alt="JM Navarette"></a>
+                    <h3 class="text-lg font-semibold text-gray-900">JM Navarette</h3>
+                    <p class="text-base font-medium text-yellow-600">Resources</p>
+                </li>
+                <li class="flex flex-col items-center">
+                    <a href="https://www.facebook.com/princecarl.nagtalon"><img class="h-28 w-28 rounded-full mb-4" src="images/prince.jpg" alt="Prince Carl Nagtalon"></a>
+                    <h3 class="text-lg font-semibold text-gray-900">Prince Carl Nagtalon</h3>
+                    <p class="text-base font-medium text-yellow-600">Polish</p>
+                </li>
+            </div>
+        </ul>
+    </div>
+</div>
+
+  <div class="max-w-3xl mx-auto px-4 py-8">
+    <div class="bg-white shadow-md rounded-lg px-8 py-6">
+        <h2 class="text-xl font-semibold text-gray-800 mb-4">Leave Feedback</h2>
+        <form>
+            <div class="mb-4">
+                <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name"
+                    class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com"
+                    class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                <textarea id="message" name="message" rows="4"
+                    class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
+            </div>
+            <button type="submit"
+                class="inline-block bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600 active:bg-yellow-700 focus:bg-yellow-700">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+<div class="bg-gray-800 py-10 text-white">
+    <div class="px-4 mx-auto max-w-screen-xl">
+        <div class="flex flex-wrap justify-between">
+            <div class="w-full md:w-1/4 mb-8 md:mb-0">
+                <h5 class="font-bold text-lg mb-4">About Us</h5>
+                <p class="text-gray-400">
+                    Shangri-La Hotels and Resorts offer luxurious accommodations and unparalleled experiences worldwide. 
+                    Our commitment is to provide hospitality from the heart.
+                </p>
+            </div>
+
+            <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                <h5 class="font-bold text-lg mb-4">Quick Links</h5>
+                <ul>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Hotels & Resorts</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Offers</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Experiences</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Restaurants & Bars</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Shangri-La Circle</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Health & Wellness</a></li>
+                </ul>
+            </div>
+
+
+            <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                <h5 class="font-bold text-lg mb-4">Contact Us</h5>
+                <ul>
+                    <li class="text-gray-400">Shangri-La Circle: <br> Shangri-la.circle@shangri-la.com</li>
+                    </li>
+                    <li class="text-gray-400">Media: <br> corpcomms@shangri-la.com</li>
+                    </li>
+                    <li class="text-gray-400">Investor Relations: <br> admin.ir@shangri-la.com</li>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                <h5 class="font-bold text-lg mb-4">Follow Us</h5>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/shangrila/" class="text-gray-400 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
+                            <path fill="#039be5" d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z"></path><path fill="#fff" d="M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z"></path>
+                            </svg>
+                    </a>
+                    <a href="https://x.com/shangrilahotels?lang=en" class="text-gray-400 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
+                            <path fill="#03A9F4" d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"></path>
+                            </svg>
+                    </a>
+                    <a href="https://www.instagram.com/shangrilahotels/?hl=en" class="text-gray-400 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
+                            <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
+                            </svg>
+                    </a>    
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-8">
+            <p>&copy; BSCS 1E. All rights reserved.</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+
+
+
+<script>
+       document.addEventListener("DOMContentLoaded", function() {
+            const hamburger = document.getElementById('hamburger');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            hamburger.addEventListener('click', function() {
+                mobileMenu.style.display = mobileMenu.style.display === 'none' || mobileMenu.style.display === '' ? 'block' : 'none';
+            });
+        });
+
+</script>
+
+
+
+
+
+</html>
+
+
