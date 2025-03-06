@@ -11,6 +11,9 @@ A modern and responsive website for **Shangrila**, offering a luxurious booking 
 - **Interactive UI** – Smooth navigation and intuitive layout.
 - **Multi-Language & Currency Support** – Enhancing the global user experience.
 
+## 🌍 Live Demo  
+🔗 **Visit the live website here:** [Shangrila Project](https://shangrilaproject.netlify.app/)
+
 ## 🌐 Website Previews
 ![image](https://github.com/user-attachments/assets/2631c44b-18d8-4b80-bf2b-62589ae1c61e)
 
